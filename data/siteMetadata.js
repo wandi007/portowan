@@ -1,7 +1,7 @@
 const siteMetadata = {
-  title: 'Karan Pratap Singh',
-  author: 'Karan Pratap Singh',
-  headerTitle: 'Karan Pratap Singh',
+  title: 'Wandi Febriandi',
+  author: 'Wandi Febriandi',
+  headerTitle: 'Wandi Febriandi',
   description:
     'A software engineer who values learning and growing with people, teams, and technologies.',
   language: 'en-us',
@@ -11,12 +11,12 @@ const siteMetadata = {
   siteLogo: '/static/images/logo.png',
   image: '/static/avatar.jpg',
   socialBanner: '/static/banner.png',
-  email: 'contact@karanpratapsingh.com',
-  github: 'https://github.com/karanpratapsingh',
-  twitter: 'https://twitter.com/karan_6864',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  email: 'wfebriandi@gmail.com',
+  github: 'https://github.com/wandi007',
+  twitter: '#',
+  facebook: '#',
+  youtube: '#',
+  linkedin: 'https://www.linkedin.com/in/wandi-febriandi-809135131/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
