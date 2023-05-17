@@ -6,15 +6,24 @@ export enum Stack {
   typescript,
   javascript,
   python,
+  php,
+  cshap,
 
   // Frontend
   react,
   reactnative,
+  nextjs,
+  css,
+  bootstrap,
+  tailwind,
 
   // Backend
   graphql,
   node,
   django,
+  aspnet,
+  laravel,
+  codeigniter,
 
   // Cloud
   aws,
@@ -29,6 +38,8 @@ export enum Stack {
   redis,
   postgres,
   mongo,
+  oracle,
+  mysql,
 
   // Tools
   docker,
@@ -37,22 +48,25 @@ export enum Stack {
 }
 
 export const WorkStack = [
-  Stack.go,
+  //back end
+  Stack.cshap,
+  Stack.aspnet,
+  Stack.javascript,
+  Stack.php,
+  Stack.laravel,
+  Stack.codeigniter,
+
+  //front end
   Stack.typescript,
-  Stack.python,
   Stack.react,
-  Stack.aws,
-  Stack.gcp,
-  Stack.kubernetes,
-  Stack.docker,
-  Stack.terraform,
-  Stack.nats,
-  Stack.kafka,
-  Stack.graphql,
+  Stack.nextjs,
+  Stack.css,
+  Stack.bootstrap,
+  Stack.tailwind,
+
   Stack.postgres,
-  Stack.redis,
-  Stack.arangodb,
-  Stack.reactnative,
+  Stack.oracle,
+  Stack.mysql,
 ];
 
 type StackInfoMap = {
@@ -140,5 +154,49 @@ export const StackInfo: Record<Stack, StackInfoMap> = {
   [Stack.terraform]: {
     value: 'Terraform',
     color: Colors.terraform,
+  },
+  [Stack.nextjs]: {
+    value: 'Next.JS',
+    color: Colors.nextjs,
+  },
+  [Stack.php]: {
+    value: 'PHP',
+    color: Colors.php,
+  },
+  [Stack.cshap]: {
+    value: 'C#',
+    color: Colors.cshap,
+  },
+  [Stack.css]: {
+    value: 'CSS',
+    color: Colors.css,
+  },
+  [Stack.bootstrap]: {
+    value: 'Boostrap',
+    color: Colors.bootstrap,
+  },
+  [Stack.tailwind]: {
+    value: 'Tailwind',
+    color: Colors.tailwind,
+  },
+  [Stack.aspnet]: {
+    value: '.NET',
+    color: Colors.aspnet,
+  },
+  [Stack.laravel]: {
+    value: 'Laravel',
+    color: Colors.laravel,
+  },
+  [Stack.codeigniter]: {
+    value: 'CodeIgniter',
+    color: Colors.codeigniter,
+  },
+  [Stack.oracle]: {
+    value: 'Oracle',
+    color: Colors.oracle,
+  },
+  [Stack.mysql]: {
+    value: 'MySql',
+    color: Colors.mysql,
   },
 };
