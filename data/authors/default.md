@@ -3,7 +3,7 @@ name: Wandi Febriandi
 shortname: Wandi
 avatar: /static/avatar.jpg
 occupation: Programmer
-company: PT. Akhdani Reka Solusi
+company: ' '
 resume: /static/Karan_Resume.pdf
 email: wfebriandi@gmail.com
 twitter: #

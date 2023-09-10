@@ -30,7 +30,7 @@ function Card({ title, description, banner, href }): React.ReactElement {
         <div className='p-6'>
           <h2 className='mb-3 text-2xl font-bold leading-8 tracking-tight'>
             {href ? (
-              <Link href={href} aria-label={`Link to ${title}`}>
+              <Link href={href} aria-label={`Link to ${title}`} target='_blank'>
                 {title}
               </Link>
             ) : (

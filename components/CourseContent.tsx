@@ -13,11 +13,8 @@ function getSlug(course: string, slug: string): string {
   return `/courses/${course}/${slug}`;
 }
 
-export default function CourseContent(
-  props: CourseContentProps,
-): React.ReactElement {
+export default function CourseContent(props: CourseContentProps) {
   const { course } = props;
-  const { content } = course;
 
   function renderCourseList(item: CourseContent): React.ReactNode {
     const { name, description, content } = item;
@@ -46,12 +43,4 @@ export default function CourseContent(
       </Collapse>
     );
   }
-
-  return (
-    <div className='pt-4 md:pt-8 xl:pt-12'>
-      <Collapse.Group>
-        {React.Children.toArray(content.map(renderCourseList))}
-      </Collapse.Group>
-    </div>
-  );
 }
