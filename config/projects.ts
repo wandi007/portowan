@@ -33,9 +33,9 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: 'HyperTrade',
-    slug: 'hypertrade',
-    banner: '/static/projects/hypertrade/banner.png',
+    title: 'Web Sumba',
+    slug: 'web-sumba',
+    banner: '/static/projects/sumba.png',
     website: 'https://github.com/karanpratapsingh/HyperTrade',
     description:
       'Ready to deploy, distributed cryptocurrency trading bot. The idea of this project originally came from a script I used to automate buying and selling of fiat assets. I was curious and wanted to scale it into a real system which can execute trades for me. I had a lot of fun building this. I got to play with lots of different technologies while growing my financial knowledge.',
@@ -53,6 +53,7 @@ export const projects: Project[] = [
     ],
     dimensions: [360, 640],
     screenshots: [
+      '/static/projects/sumba.png',
       'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fhypertrade%2Fcharts.png?alt=media&token=62c42939-9371-4413-b85d-f2dd3b4534ca',
       'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fhypertrade%2Fdataframe.png?alt=media&token=f2e6523c-c9de-4fde-8fb3-434c74eb20d8',
       'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fhypertrade%2Fportfolio.png?alt=media&token=8f4e3da1-2dc2-4382-9fc8-1fbc18a98146',

@@ -1,7 +1,8 @@
 import Image from 'next/image';
 import Link from './Link';
+import StackList from '@/components/list/StackList';
 
-function Card({ title, description, banner, href }): React.ReactElement {
+function Card({ title, description, banner, href, stack }): React.ReactElement {
   const image = (
     <Image
       alt={title}
@@ -40,6 +41,7 @@ function Card({ title, description, banner, href }): React.ReactElement {
           <p className='prose mb-3 max-w-none text-gray-500 line-clamp-2 dark:text-gray-400'>
             {description}
           </p>
+          {stack ? <StackList stack={stack} /> : ''}
           {href && (
             <Link
               href={href}
