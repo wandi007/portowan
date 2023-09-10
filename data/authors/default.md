@@ -4,7 +4,7 @@ shortname: Wandi
 avatar: /static/avatar.jpg
 occupation: Programmer
 company: ' '
-resume: /static/Karan_Resume.pdf
+resume: /static/cv_2023.pdf
 email: wfebriandi@gmail.com
 twitter: #
 linkedin: https://www.linkedin.com/in/wandi-febriandi-809135131/
