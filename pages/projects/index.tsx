@@ -14,19 +14,23 @@ export default function Projects() {
         description={siteMetadata.description}
       />
       <div className='fade-in divide-y-2 divide-gray-100 dark:divide-gray-800'>
-        <Header title='Projects' />
+        <Header
+          title='Projects'
+          subtitle='My open source and freelance projects'
+        />
         <div className='container py-12'>
           <div className='-m-4 flex flex-wrap'>
             {config.projects.map(
-              ({ slug, title, description, banner, stack }) => (
+              ({ slug, title, description, banner, stack, website }) => (
                 <Card
                   key={slug}
                   title={title}
                   description={description}
                   banner={banner}
-                  href={`/projects/${slug}`}
                   stack={stack}
+                  href={website}
                 />
+                // href={`/projects/${slug}`}
               ),
             )}
           </div>

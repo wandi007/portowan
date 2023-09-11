@@ -24,6 +24,7 @@ export enum Stack {
   aspnet,
   laravel,
   codeigniter,
+  vue,
 
   // Cloud
   aws,
@@ -63,6 +64,7 @@ export const WorkStack = [
   Stack.css,
   Stack.bootstrap,
   Stack.tailwind,
+  Stack.vue,
 
   Stack.postgres,
   Stack.oracle,
@@ -198,5 +200,9 @@ export const StackInfo: Record<Stack, StackInfoMap> = {
   [Stack.mysql]: {
     value: 'MySql',
     color: Colors.mysql,
+  },
+  [Stack.vue]: {
+    value: 'Vue.Js',
+    color: Colors.vue,
   },
 };

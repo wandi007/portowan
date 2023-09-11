@@ -14,6 +14,7 @@ export const Colors = {
   css: '#0066b9',
   bootstrap: '#573e7f',
   tailwind: '#4eb1b5',
+  vue: '#4DB33D',
 
   // Backend
   graphql: '#E535AB',

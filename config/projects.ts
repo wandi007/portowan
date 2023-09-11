@@ -36,21 +36,13 @@ export const projects: Project[] = [
     title: 'Web Sumba',
     slug: 'web-sumba',
     banner: '/static/projects/sumba.png',
-    website: 'https://github.com/karanpratapsingh/HyperTrade',
+    website: '#',
     description:
-      'Ready to deploy, distributed cryptocurrency trading bot. The idea of this project originally came from a script I used to automate buying and selling of fiat assets. I was curious and wanted to scale it into a real system which can execute trades for me. I had a lot of fun building this. I got to play with lots of different technologies while growing my financial knowledge.',
+      'Sumba tourism website, to see the natural beauty of Sumba Island.',
     shortDescription:
       'Ready to deploy, distributed cryptocurrency trading bot.',
     repository: 'https://github.com/karanpratapsingh/HyperTrade',
-    stack: [
-      Stack.nats,
-      Stack.go,
-      Stack.typescript,
-      Stack.react,
-      Stack.python,
-      Stack.kubernetes,
-      Stack.docker,
-    ],
+    stack: [Stack.react, Stack.tailwind],
     dimensions: [360, 640],
     screenshots: [
       '/static/projects/sumba.png',
@@ -63,27 +55,20 @@ export const projects: Project[] = [
       'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fhypertrade%2Ftelegram.png?alt=media&token=110874dd-fb96-4dd2-b299-12a62b092a04',
     ],
     deployment: {
-      web: 'https://github.com/karanpratapsingh/HyperTrade',
+      web: '#',
     },
     subProjects: [],
   },
   {
-    title: 'Peapods',
+    title: 'Futsal Field Booking Application',
     slug: 'peapods',
-    banner: '/static/projects/peapods/banner.png',
-    website: 'https://peapods.com',
-    description: `Peapods is a new type of decentralized social network that values real human interaction. The platform helps you become closer with your friends and make new ones. We value kindness, friendship, user privacy, and genuine connection. Together we can cure boredom, conquer loneliness, and fulfill the original promise of the internet to connect us in ways that matter.`,
+    banner: '/static/projects/aplikasi-booking-futsal.png',
+    website: '#',
+    description: `Book a futsal field easily without having to come in person. Payment system that has been integrated with a payment gateway.`,
     shortDescription:
       'Peapods is a new type of decentralized social network that values real human interaction.',
     repository: null,
-    stack: [
-      Stack.javascript,
-      Stack.react,
-      Stack.node,
-      Stack.graphql,
-      Stack.aws,
-      Stack.arangodb,
-    ],
+    stack: [Stack.javascript, Stack.bootstrap, Stack.codeigniter, Stack.mysql],
     screenshots: [],
     deployment: {
       web: 'https://peapods.com',
@@ -91,20 +76,38 @@ export const projects: Project[] = [
     subProjects: [],
   },
   {
-    title: 'Proximity',
-    slug: 'proximity',
-    website: 'https://proximity-mobile.web.app',
-    banner: '/static/projects/proximity/banner.jpeg',
-    description:
-      'An open source social media app that does not use your data against you.',
-    repository: 'https://github.com/karanpratapsingh/Proximity',
-    stack: [
-      Stack.typescript,
-      Stack.reactnative,
-      Stack.node,
-      Stack.graphql,
-      Stack.postgres,
+    title: 'Food ordering API',
+    slug: 'kcards',
+    banner: '/static/projects/go-makan.png',
+    description: 'Food ordering API created using ASP.NET Core Web API.',
+    repository: 'https://github.com/karanpratapsingh/KCards',
+    stack: [Stack.cshap, Stack.aspnet],
+    dimensions: [450, 270],
+    screenshots: [
+      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fkcards%2Fscreenshots%2Fscreenshot-1.png?alt=media&token=5de462e1-7368-49fd-843f-abd4cccb3317',
+      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fkcards%2Fscreenshots%2Fscreenshot-2.png?alt=media&token=30061b0b-5bed-47d5-bf43-16c44cf076e0',
+      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fkcards%2Fscreenshots%2Fscreenshot-3.png?alt=media&token=350180a1-f559-45e7-b887-dafd2cf9eb78',
+      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fkcards%2Fscreenshots%2Fscreenshot-4.png?alt=media&token=574212b2-cf17-4e11-b8c0-a3a81473aeec',
+      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fkcards%2Fscreenshots%2Fscreenshot-5.png?alt=media&token=ecff0737-b3b5-45cc-8d85-97b684f9c4b7',
+      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fkcards%2Fscreenshots%2Fscreenshot-6.png?alt=media&token=b49f3f8e-6596-47ab-b3e6-872f5f67d7fe',
     ],
+    deployment: {
+      web: 'https://kcards-server.herokuapp.com',
+      android: 'https://play.google.com/store/apps/details?id=com.kcards',
+      ios: 'https://itunes.apple.com/us/app/kcards/id1461733524',
+    },
+    website: 'https://github.com/wandi007/web_gomakan',
+    subProjects: [],
+  },
+  {
+    title: 'Movie News',
+    slug: 'proximity',
+    website: '#',
+    banner: '/static/projects/movie-news.png',
+    description:
+      'News about the latest films, presented in a user friendly manner and fast performance.',
+    repository: 'https://github.com/karanpratapsingh/Proximity',
+    stack: [Stack.tailwind, Stack.vue],
     screenshots: [
       'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fproximity%2Fscreenshots%2Fscreenshot-1.png?alt=media&token=a9b5a094-8a16-4c84-af16-65bf2378d7d9',
       'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fproximity%2Fscreenshots%2Fscreenshot-2.png?alt=media&token=fca4c07e-c922-445e-a259-a06c038e0974',
@@ -124,19 +127,13 @@ export const projects: Project[] = [
     subProjects: [],
   },
   {
-    title: 'Velvet Live',
+    title: 'Point of Sales',
     slug: 'velvet-live',
-    banner: '/static/projects/velvet-live/banner.png',
-    website: 'https://boom.london',
-    description: `Connect with shoppers who need your advice and expertise when they're shopping online. Assist and sell to customers the same way you would in-store, but now through chat and video straight from the app.`,
+    banner: '/static/projects/point-of-sales.png',
+    website: '#',
+    description: `Sales application accompanied by a cashier system with sales receipts and reports.`,
     repository: null,
-    stack: [
-      Stack.javascript,
-      Stack.react,
-      Stack.reactnative,
-      Stack.graphql,
-      Stack.gcp,
-    ],
+    stack: [Stack.javascript, Stack.laravel, Stack.bootstrap],
     screenshots: [
       'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fvelvet%2Fscreenshots%2Fscreenshot-1.png?alt=media&token=b9b044ce-a3af-402f-a1db-1ae61621bb18',
       'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fvelvet%2Fscreenshots%2Fscreenshot-2.png?alt=media&token=f551d87b-4f74-4d06-b81e-50ea8bf7feba',
@@ -151,117 +148,6 @@ export const projects: Project[] = [
       web: 'https://boom.london',
       android: 'https://play.google.com/store/apps/details?id=app.boom.mobile',
     },
-    subProjects: [],
-  },
-  {
-    title: 'Stewards',
-    slug: 'stewards',
-    website: 'https://stewards.app',
-    repository: null,
-    banner: '/static/projects/stewards/banner.png',
-    description:
-      'Mobile ordering solution with robot delivery. Stewards also provides variety of tools like staff application to manage orders, self checkout solution and admin dashboard.',
-    stack: [
-      Stack.javascript,
-      Stack.react,
-      Stack.reactnative,
-      Stack.graphql,
-      Stack.gcp,
-    ],
-    screenshots: [
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fstewards%2Fscreenshots%2Fscreenshot-1.png?alt=media&token=ba9d7163-8df6-43ae-b804-01cd221cc593',
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fstewards%2Fscreenshots%2Fscreenshot-2.png?alt=media&token=c8194dc7-08cf-4b8c-a3ad-f6c643291a95',
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fstewards%2Fscreenshots%2Fscreenshot-3.png?alt=media&token=37c14308-767c-41c7-a064-df8b63cd18e8',
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fstewards%2Fscreenshots%2Fscreenshot-4.png?alt=media&token=6ad6b4f6-ba09-423d-bd3f-b06ae093113a',
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fstewards%2Fscreenshots%2Fscreenshot-5.png?alt=media&token=cd2945c0-af97-4b3d-a503-d52174232a8e',
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fstewards%2Fscreenshots%2Fscreenshot-6.png?alt=media&token=6fcaeab6-d539-4f39-9985-e6ee85e28f0a',
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fstewards%2Fscreenshots%2Fscreenshot-7.png?alt=media&token=3c1fcd3e-4d93-4275-8d87-94a9b9236a9d',
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fstewards%2Fscreenshots%2Fscreenshot-8.png?alt=media&token=9733914a-61a9-41ed-b715-3334ca425588',
-    ],
-    deployment: {
-      web: 'https://stewards.app',
-      android:
-        'https://play.google.com/store/apps/details?id=app.stewards.customer',
-      ios: 'https://apps.apple.com/in/app/stewards-order-to-your-desk/id1479412118',
-    },
-    subProjects: [
-      {
-        title: 'Staff Management',
-        repository: null,
-        description:
-          'Staff app for stewards restaurant staff, easily update menu, product availability and take live orders from customers.',
-        deployment: {
-          android:
-            'https://play.google.com/store/apps/details?id=app.stewards.staff&hl=en',
-        },
-      },
-      {
-        title: 'Admin Dashboard',
-        repository: null,
-        description:
-          'Staff administration app for stewards restaurant partners. This helps restaurant administrators to easily manage orders, receipts, tables, restaurant info etc.',
-        deployment: {
-          web: 'https://manage.stewards.app',
-        },
-      },
-      {
-        title: 'Self Checkout',
-        repository: null,
-        description:
-          "Stewards self checkout solution for customers who don't like waiting. Available on demand for iPad and tablets.",
-        deployment: {},
-      },
-    ],
-  },
-  {
-    title: 'Celebrify',
-    slug: 'celebrify',
-    website: 'https://celebrify.in',
-    banner: '/static/projects/celebrify/banner.jpeg',
-    description:
-      'Get personalized videos from your favorite celebrities at just one click. Request personalized video messages for your friends, family, loved ones or even yourself. Be it a doubt or even a special wish from your favorite celebrity.',
-    repository: null,
-    stack: [Stack.react, Stack.reactnative, Stack.django, Stack.aws],
-    dimensions: [450, 270],
-    screenshots: [
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fcelebrify%2Fscreenshots%2Fscreenshot-1.png?alt=media&token=93fffd15-08ca-4ffc-8fce-47bc269237ee',
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fcelebrify%2Fscreenshots%2Fscreenshot-2.png?alt=media&token=fd597baf-3aaa-4ad8-abe9-1d42c628285f',
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fcelebrify%2Fscreenshots%2Fscreenshot-3.png?alt=media&token=779ea419-adb0-4f62-8ef7-dcfa8d9a4228',
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fcelebrify%2Fscreenshots%2Fscreenshot-4.png?alt=media&token=e77b8603-4885-4eed-b108-f9f4bb751796',
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fcelebrify%2Fscreenshots%2Fscreenshot-5.png?alt=media&token=94f43db6-c835-404d-ab35-85ddad624a06',
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fcelebrify%2Fscreenshots%2Fscreenshot-6.png?alt=media&token=7794ae58-7e3a-45c5-a47a-6c86b909e423',
-    ],
-    deployment: {
-      web: 'https://celebrify.in',
-      android:
-        'https://play.google.com/store/apps/details?id=com.celebrify.app',
-      ios: 'https://apps.apple.com/us/app/celebrify-app/id1469588198',
-    },
-    subProjects: [],
-  },
-  {
-    title: 'KCards',
-    slug: 'kcards',
-    banner: '/static/projects/kcards/banner.jpeg',
-    description:
-      'KCards is your one-stop replacement for paper cards. KCards help you to easily share your cards with other users and get real-time analytics on the shared cards.',
-    repository: 'https://github.com/karanpratapsingh/KCards',
-    stack: [Stack.react, Stack.reactnative, Stack.node, Stack.mongo],
-    dimensions: [450, 270],
-    screenshots: [
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fkcards%2Fscreenshots%2Fscreenshot-1.png?alt=media&token=5de462e1-7368-49fd-843f-abd4cccb3317',
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fkcards%2Fscreenshots%2Fscreenshot-2.png?alt=media&token=30061b0b-5bed-47d5-bf43-16c44cf076e0',
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fkcards%2Fscreenshots%2Fscreenshot-3.png?alt=media&token=350180a1-f559-45e7-b887-dafd2cf9eb78',
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fkcards%2Fscreenshots%2Fscreenshot-4.png?alt=media&token=574212b2-cf17-4e11-b8c0-a3a81473aeec',
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fkcards%2Fscreenshots%2Fscreenshot-5.png?alt=media&token=ecff0737-b3b5-45cc-8d85-97b684f9c4b7',
-      'https://firebasestorage.googleapis.com/v0/b/portfolio-8fa71.appspot.com/o/projects%2Fkcards%2Fscreenshots%2Fscreenshot-6.png?alt=media&token=b49f3f8e-6596-47ab-b3e6-872f5f67d7fe',
-    ],
-    deployment: {
-      web: 'https://kcards-server.herokuapp.com',
-      android: 'https://play.google.com/store/apps/details?id=com.kcards',
-      ios: 'https://itunes.apple.com/us/app/kcards/id1461733524',
-    },
-    website: 'https://kcards-server.herokuapp.com',
     subProjects: [],
   },
 ];

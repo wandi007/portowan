@@ -23,6 +23,7 @@ export default function Courses(): React.ReactElement {
                   description={description}
                   banner={banner}
                   href={link}
+                  stack={null}
                 />
               ),
             )}
